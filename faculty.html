@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faculty Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Faculty Dashboard</h1>
+
+        <h3>Mark Attendance</h3>
+        <input type="text" id="studentId" placeholder="Student ID">
+
+        <select id="attendanceStatus">
+            <option value="Present">Present</option>
+            <option value="Absent">Absent</option>
+        </select>
+
+        <button onclick="markAttendance()">Mark Attendance</button>
+
+        <p id="attendanceMessage"></p>
+
+        <h3>Leave Requests</h3>
+        <button>View Leave Requests</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
